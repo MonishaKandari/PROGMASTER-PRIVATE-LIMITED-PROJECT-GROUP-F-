@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: linear-gradient(40deg,
+    blue,rgb(131, 23, 208),rgb(131, 52, 187),rgb(172, 42, 172),rgb(198, 89, 198),rgb(237, 77, 237),rgb(245, 144, 161),rgb(225, 112, 112),purple);
+}
+.form-container{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 80px;
+    margin-bottom: 130px;
+    margin-left: 250px;
+    margin-right: 250px;
+    border-radius: 30px;
+    background-color: rgb(237, 177, 237);
+}
+.content{
+    padding-left: 5px;
+}
+h2{
+    position: relative;
+    text-align: center;
+}
+p{
+    padding-top: 5px;
+    position: relative;
+    text-align: center;
+}
+.user input[type="text"]{
+    width: 500px;
+    height: 30px;
+    border-radius: 15px;
+    text-indent: 5vh;
+    font-size: medium;
+    border: none;
+}
+.fa-user{
+    position: relative;
+    left:4vh;
+}
+.email input[type="email"]{
+    width: 500px;
+    height: 30px;
+    padding: 15px;
+    border-radius: 15px;
+    text-indent: 3vh;
+    font-size: medium;
+    border: none;
+}
+.fa-envelope{
+    position: relative;
+    left: 4vh;
+}
+.number input[type="number"]{
+    width: 500px;
+    height: 30px;
+    padding: 15px;
+    border-radius: 15px;
+    text-indent: 3vh;
+    font-size: medium;
+    border: none;
+}
+.fa-phone{
+    position: relative;
+    left:4vh
+}
+textarea {
+    border: none;
+    margin-left: 20px;
+    width: 32vw;
+    height: 15vh;
+    border-radius: 15px;
+    text-indent: 2vh;
+    padding-top: 5px;
+    font-size: 1em;
+}
+button {
+    width: 50%;
+    height: 4vh;
+    color: white;
+    background: #00d689;
+    border: none;
+    border-radius: 10px; 
+    text-align: center;
+}
+.extra{
+    text-align: center;
+    padding-top: 30px;
+}
